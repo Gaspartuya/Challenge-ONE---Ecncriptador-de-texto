@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./Style.css">
+    <title>Encriptador de texto</title>
+</head>
+<body class="body">
+    <img src="./Images/Logo.png" alt="Logo alura" class="logo">
+    <div class="rectanguloinput">
+        <textarea class="txtinput" name="inputtext" id="txtinput" cols="30" rows="10" placeholder="Ingrese su texto aqui"></textarea>
+        <span class="span" id="advertencia">
+            <img src="./Images/Vector.png" alt="img danger" width="20px" height="20px" id="icon">
+            <p id="pad" class="pad">Solo letras minusculas y sin acentos</p>
+        </span>
+        <button class="btnencript" id="btnencript">Encriptar</button>
+        <button class="btnuncript" id="btnuncript">Desencriptar</button>
+    </div>
+    <div id="rectanguloshow" class="rectanguloshow">
+        <div id="divshowmuneco" class="divshowmuneco">
+            <img src="./Images/Muñeco.png" alt="img muñeco" id="imgmuneco" class="imgmuneco">
+            <div class="dictextolft">
+                <p class="msg1" id="msg1">Ningun mensaje fue encontrado</p>
+                <p class="msg2" id="msg2">Ingresa el texto que desees encriptar o desencriptar</p>
+            </div>
+        </div>
+        <textarea class="txtshow" name="showtext" id="txtshow" cols="30" rows="10"></textarea>
+        <button class="btncopiar" id="btncopiar">Copiar</button>
+    </div>
+    <footer class="footer" id="footer">
+        <p> Lautaro Gaspar Tuya <a id="link" href="https://github.com/Gaspartuya" target="_blank">(@gaspartuya)</a></p>
+    </footer>
+    <script src="./JS/encriptar.js"></script>
+
+</body>
+</html>
