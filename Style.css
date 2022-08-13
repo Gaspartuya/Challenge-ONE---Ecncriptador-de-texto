@@ -47,6 +47,9 @@ html { font-family: 'Inter', sans-serif; }
     border-radius: 32px;
 }
 
+
+
+
 .txtshow{
     width: 350px;
     height: 690px;
@@ -223,7 +226,7 @@ html { font-family: 'Inter', sans-serif; }
 .span{
     position: absolute;
     top: 730px;
-    left: 240px;
+    left: 100px;
 }
 #icon{
     display: inline-block;
@@ -262,3 +265,53 @@ html { font-family: 'Inter', sans-serif; }
     color: #0A3871;
 }
 
+@media screen and (max-width: 480px) {
+
+    .rectanguloshow {
+
+        width: 400px;
+        height: 680px;
+        left: 240px;
+        top: 680px;
+
+    }
+
+    .txtshow {
+
+        width: 120px;
+        height: 120px;
+    }
+
+    .btnencript {
+
+        top: 560px
+    }
+
+    .btnuncript {
+
+        top: 560px;
+    }
+
+    .btncopiar {
+
+        top: 720px;
+    }
+
+    .footer {
+
+        top: 800px;
+        left: 240px;
+        
+    }
+
+    .span {
+
+        top: 300px
+    }
+
+    .pad {
+
+        display: inline-block;
+        left: 120px;
+    }
+}
